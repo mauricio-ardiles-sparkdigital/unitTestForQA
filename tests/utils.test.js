@@ -21,3 +21,15 @@ test('shouldIWorkToday function Returns message = You should not work but the en
   const expected = 'You should not work but the end is near';
   expect(result).toEqual(expected);
 });
+
+test('shouldIWorkToday function Returns message = Sad but True', () => {
+  const result = utils.shouldIWorkToday('Friday');
+  const expected = 'Sad but True';
+  expect(result).toEqual(expected);
+});
+
+test('shouldIWorkToday function Returns an empty message', () => {
+  const result = utils.shouldIWorkToday('Unit Test');
+  const expected = '';
+  expect(result).toEqual(expected);
+});
