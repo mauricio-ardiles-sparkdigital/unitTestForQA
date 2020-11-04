@@ -33,3 +33,10 @@ test('shouldIWorkToday function Returns an empty message', () => {
   const expected = '';
   expect(result).toEqual(expected);
 });
+
+/**
+ * TDD crear test para una funcion que devuelve si un numero es mayor que otro
+ * Recibe 2 parametros y devuelve un string con uno de los siguientes mensajes:
+ * 'MAYOR' , 'MENOR', 'IGUALES'
+ */
+
