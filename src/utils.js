@@ -5,18 +5,22 @@
  * @returns {boolean}
  */
 function isEven(number) {
-  let checker = false;
+  let checker = false; console.log('stmts');
   if (number % 2 === 0){
     checker = true;
   }
   return checker
 }
 
+
+
 /**
  * Ugly code just for the training
  * @param dayName
  * @returns {string}
  */
+
+
 function shouldIWorkToday(dayName) {
   let message = '';
   
@@ -33,7 +37,21 @@ function shouldIWorkToday(dayName) {
   return message;
 }
 
+
+function comparar (a, b){
+  let message = '';
+  if (a > b) {
+    message = 'MAYOR';
+  } else if (a < b){
+    message = 'MENOR';
+  } else {
+    message = 'IGUALES';
+  }
+  return message;
+}
+
 module.exports = {
   isEven,
-  shouldIWorkToday
+  shouldIWorkToday,
+  comparar
 };
