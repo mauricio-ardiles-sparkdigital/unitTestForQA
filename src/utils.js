@@ -39,7 +39,7 @@ function shouldIWorkToday(dayName) {
 
 
 function comparar (a, b){
-  let message = '';
+  let message ;
   if (a > b) {
     message = 'MAYOR';
   } else if (a < b){
