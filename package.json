@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "jest": {
+    "testTimeout": 10000
+  },
   "scripts": {
     "test": "jest --coverage --watchAll=false --forceExit"
   },

@@ -4,17 +4,17 @@
  * @returns {string}
  */
 
-function shouldIWorkToday(dayName) {
+function shouldPaidExtraHours(dayName) {
   let message = '';
 
   if (dayName === 'Saturday' || dayName === 'Sunday'){
     if (dayName === 'Saturday') {
-      message = 'Is saturday enjoy your weekend';
+      message = 'PAY';
     } else {
-      message = 'You should not work but the end is near';
+      message = 'DOUBLE PAY';
     }
   } else if (dayName === 'Monday' || dayName === 'Tuesday' || dayName === 'Wednesday' || dayName === 'Thursday' || dayName === 'Friday') {
-    message = 'Sad but True';
+    message = 'NO!';
   }
 
   return message;
@@ -23,5 +23,5 @@ function shouldIWorkToday(dayName) {
 
 
 module.exports = {
-  shouldIWorkToday
+  shouldPaidExtraHours
 };
