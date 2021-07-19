@@ -4,7 +4,7 @@
  * @returns {string}
  * @description si age es menor a 18 (hasta 17) devuelve menor,
  * si age esta en el rango de 18 a 64 inclusive devuelve mayor,
- * si age esta en el rango de 65 a 119 inclusive devuelve jubilado,
+ * si age esta en el rango de 65 a 120 inclusive devuelve jubilado,
  * si age es mayor a 120 devuelve cadaver
  */
 
