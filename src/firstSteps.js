@@ -7,7 +7,7 @@
 function isEven(number) {
   let checker = false;
   if (number % 2 === 0){
-    checker = true;
+    checker = false;
   }
   return checker
 }

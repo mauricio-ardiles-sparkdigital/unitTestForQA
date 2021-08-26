@@ -11,7 +11,7 @@ function shouldPaidExtraHours(dayName) {
     if (dayName === 'Saturday') {
       message = 'PAY';
     } else {
-      message = 'DOUBLE PAY';
+      message = 'DOUBLE PAY!!!';
     }
   } else if (dayName === 'Monday' || dayName === 'Tuesday' || dayName === 'Wednesday' || dayName === 'Thursday' || dayName === 'Friday') {
     message = 'NO!';

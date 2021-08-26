@@ -25,26 +25,19 @@ test('getAgeStatus returns cadaver when age is 121', () => {
   expect(result).toEqual(expected);
 });
 
-
-
-
-
-
-
-
-test.skip('getAgeStatus returns mayor when age is 18', () => {
+test('getAgeStatus returns mayor when age is 18', () => {
   const result = coverageImprovements.getAgeStatus(18);
   const expected = 'mayor';
   expect(result).toEqual(expected);
 });
 
-test.skip('getAgeStatus returns mayor when age is 64', () => {
+test('getAgeStatus returns mayor when age is 64', () => {
   const result = coverageImprovements.getAgeStatus(64);
   const expected = 'mayor';
   expect(result).toEqual(expected);
 });
 
-test.skip('getAgeStatus returns mayor when age is 120', () => {
+test('getAgeStatus returns mayor when age is 120', () => {
   const result = coverageImprovements.getAgeStatus(120);
   const expected = 'jubilado';
   expect(result).toEqual(expected);
